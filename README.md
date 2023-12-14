@@ -1,1 +1,1 @@
-# Examen-Estadistica-Inferencial-Olivia-Clemente
+# Examen_Estadistica_Inferencial_Olivia_Clemente
