@@ -1,0 +1,12 @@
+df <- data.frame(VentasA= c(12,11,18,16,13),
+                 VentasB= c())
+
+#contrastar las medias con nivel de confianza 0.95
+
+#primero: igualdad de varianzas
+var.test(df$VentasA, df$VentasB, conf.level = 0.95)
+
+#segundo: test de medias con varianzas distintas
+t.test(df$VentasA, df$VentasB, var.equal=FALSE, conf.level = 0.95)
+
+#se acepta
